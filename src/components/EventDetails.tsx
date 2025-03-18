@@ -72,7 +72,7 @@ const EventDetails = () => {
           </div>
           <div>
             <p className="secondary-text">Waktu</p>
-            <p className="font-medium uppercase">12.00PM - 4.30PM</p>
+            <p className="font-medium uppercase">12.00PM - 5.00PM</p>
           </div>
         </motion.div>
       </motion.div>
