@@ -12,7 +12,7 @@ const Location = () => {
       transition={{
         duration: 0.8,
       }}
-      className="primary-text my-4 flex flex-col items-center pb-8"
+      className="primary-text my-4 flex w-full flex-col items-center px-4 pb-8"
     >
       <Title title="Lokasi" />
       <div className="space-y-4 text-center">

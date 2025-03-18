@@ -9,7 +9,7 @@ import NavigationBar from "../components/NavigationBar";
 
 const InvitationCard = () => {
   return (
-    <div className="relative mx-auto max-w-[700px] overflow-hidden px-10 py-10 pb-28">
+    <div className="relative mx-auto max-w-[700px] overflow-hidden px-10 py-10">
       <motion.div
         className="absolute top-0 left-0 z-50 h-full w-full bg-[var(--primary)]"
         initial={{ scaleX: 1 }}
@@ -56,19 +56,19 @@ const InvitationCard = () => {
           transition={{
             duration: 0.8,
           }}
-          className="crimson relative my-4 mt-8 p-2 text-neutral-600 italic"
+          className="crimson relative my-4 mt-8 p-4 text-neutral-600 italic"
         >
-          <p className="rounded-xl border border-dashed border-[var(--accent)] p-6">
+          <p className="rounded-xl border border-dashed border-[var(--accent)] p-4">
             “Semoga Allah memberi barakah kepadamu dan keberkahan atas
             pernikahan kamu, dan mengumpulkan kalian berdua dalam kebaikan.”
           </p>
           <img
             src="/floral-topright.png"
-            className="absolute -top-4 -right-4 w-16"
+            className="absolute -top-2 -right-2 w-16"
           />
           <img
             src="/floral-bottomleft.png"
-            className="absolute -bottom-4 -left-4 w-16"
+            className="absolute -bottom-2 -left-2 w-16"
           />
         </motion.div>
         <Location />

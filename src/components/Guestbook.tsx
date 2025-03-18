@@ -42,17 +42,17 @@ const Guestbook = () => {
       transition={{
         duration: 0.8,
       }}
-      className={`primary-text z-30 my-4 flex min-w-[250px] flex-col items-center px-12`}
+      className={`primary-text z-30 my-4 flex w-full min-w-[250px] flex-col items-center px-4`}
     >
       <Title title="Ucapan" />
       <div className="mx-auto mb-4 max-h-[300px] w-full min-w-[250px] overflow-y-auto rounded-xl border-2 border-dotted border-[var(--accent)] p-4 text-center sm:min-w-[500px]">
         <img
           src="/floral-topleft.png"
-          className="absolute top-14 left-6 w-16"
+          className="absolute top-20 -left-2 w-16"
         />
         <img
           src="/floral-bottomright.png"
-          className="absolute right-6 bottom-10 w-16"
+          className="absolute -right-2 bottom-10 w-16"
         />
         {wishes?.length === 0 && (
           <p className="crimson text-center text-sm font-light text-neutral-600 italic">

@@ -30,7 +30,7 @@ const EventDetails = () => {
         <motion.p className="secondary-text">
           Assalamualaikum & Salam Sejahtera
         </motion.p>
-        <motion.div className="names my-1 text-xl font-medium sm:text-2xl">
+        <motion.div className="names my-1 text-xl font-semibold tracking-wide sm:text-2xl">
           <div className="">
             <h2>Rizaman bin Yahya</h2>
             <h6>&</h6>
@@ -44,14 +44,8 @@ const EventDetails = () => {
             Puan/ Encik/ Cik seisi keluarga ke majlis perkahwinan putera kami
           </p>
         </motion.div>
-        <motion.div className="names rounded-lg px-2 py-4 text-2xl font-semibold tracking-wider sm:text-3xl">
-          <div className="mb-4 flex w-full items-center">
-            <div className="h-1.25 w-1.25 rounded-full bg-[#A8BBA2]"></div>
-            <div className="h-0.25 flex-grow rounded bg-[#A8BBA2]"></div>
-            <div className="mx-2 h-1 w-1 rounded-full bg-[#A8BBA2]"></div>
-            <div className="h-0.25 flex-grow rounded bg-[#A8BBA2]"></div>
-            <div className="h-1.25 w-1.25 rounded-full bg-[#A8BBA2]"></div>
-          </div>
+        <motion.div className="names flex flex-col items-center rounded-lg p-2 text-2xl font-semibold tracking-wider sm:text-3xl">
+          <img className="h-9 w-80 opacity-50" src="/leaf.png" alt="leaf" />
           <div className="">
             <h2>Mohd Syafiq Azfar bin Rizaman</h2>
           </div>
@@ -59,13 +53,11 @@ const EventDetails = () => {
           <div className="">
             <h2>Norakmal binti Suhaimi</h2>
           </div>
-          <div className="mt-4 flex w-full items-center">
-            <div className="h-1.25 w-1.25 rounded-full bg-[#A8BBA2]"></div>
-            <div className="h-0.25 flex-grow rounded bg-[#A8BBA2]"></div>
-            <div className="mx-2 h-1 w-1 rounded-full bg-[#A8BBA2]"></div>
-            <div className="h-0.25 flex-grow rounded bg-[#A8BBA2]"></div>
-            <div className="h-1.25 w-1.25 rounded-full bg-[#A8BBA2]"></div>
-          </div>
+          <img
+            className="h-9 w-80 rotate-180 opacity-50"
+            src="/leaf.png"
+            alt="leaf"
+          />
         </motion.div>
         <motion.div className="space-y-2">
           <div>

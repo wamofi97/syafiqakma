@@ -35,12 +35,22 @@ const WelcomePage = ({
       <div className="primary-text relative flex w-full flex-col items-center justify-center rounded-xl bg-white py-10 text-center">
         <div className="w-full"></div>
         <img
-          className="absolute -top-18 -left-12 h-170 w-28 opacity-80"
+          className="absolute -top-4 w-40 opacity-80"
+          src="/leaf.png"
+          alt="leaf"
+        />
+        <img
+          className="absolute -bottom-4 w-40 rotate-180 opacity-80"
+          src="/leaf.png"
+          alt="leaf"
+        />
+        <img
+          className="absolute -top-18 -left-12 h-180 w-28 opacity-80"
           src="/floral-left.png"
           alt="floralleft"
         />
         <img
-          className="absolute -top-18 -right-12 h-170 w-28 opacity-80"
+          className="absolute -top-18 -right-12 h-180 w-28 opacity-80"
           src="/floral-right.png"
           alt="floralright"
         />

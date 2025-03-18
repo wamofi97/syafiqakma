@@ -44,7 +44,7 @@ const Countdown = () => {
         transition={{
           duration: 0.8,
         }}
-        className="primary-text z-10 my-4 flex flex-col items-center px-4"
+        className="primary-text z-10 my-4 flex w-full flex-col items-center px-4"
       >
         <Title title="Menghitung Hari" />
         <div className="mt-2 flex items-center justify-center gap-1 sm:gap-8">
