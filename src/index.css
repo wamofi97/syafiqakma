@@ -1,1 +1,185 @@
 @import "tailwindcss";
+
+:root {
+  --primary: #415d38;
+  --secondary: #52525b;
+  --accent: #ca9c7b;
+  --button: #415d38;
+  --button-text: #eaf7e7;
+}
+
+.names {
+  font-family: "Bilbo Swash Caps", cursive;
+  color: var(--primary);
+}
+
+.primary-text {
+  font-family: "Lora", serif;
+  color: var(--primary);
+}
+
+.secondary-text {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--secondary);
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+}
+
+.corinthia {
+  font-family: "Corinthia", cursive;
+}
+
+.crimson {
+  font-family: "Crimson Text", serif;
+}
+
+/* .primary-color {
+  color: #2b3f19;
+}
+
+.accent-color {
+  color: #cbb79f;
+} */
+
+.snowfall {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.snowflake {
+  --small: 3px;
+  --medium: 7px;
+  width: var(--small);
+  height: var(--small);
+  position: absolute;
+  background-color: #cbb79f;
+  border-radius: 50%;
+  animation:
+    snow 6s linear infinite,
+    wind 10s ease-in-out infinite;
+  top: -10%;
+  left: 10%;
+}
+
+.snowflake:nth-child(2n + 3) {
+  /* 3, 5, 7, ... */
+  width: var(--medium);
+  height: var(--medium);
+}
+
+.snowflake:nth-child(1) {
+  left: 25%;
+  animation-delay: 1s;
+}
+
+.snowflake:nth-child(2) {
+  left: 85%;
+  animation-delay: 1.5s;
+}
+
+.snowflake:nth-child(3) {
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.snowflake:nth-child(4) {
+  left: 65%;
+  animation-delay: 2.5s;
+}
+
+.snowflake:nth-child(5) {
+  left: 25%;
+  animation-delay: 3s;
+}
+
+.snowflake:nth-child(6) {
+  left: 95%;
+  animation-delay: 3.5s;
+}
+
+.snowflake:nth-child(7) {
+  left: 55%;
+  animation-delay: 4s;
+}
+
+.snowflake:nth-child(8) {
+  left: 10%;
+  animation-delay: 4.5s;
+}
+
+.snowflake:nth-child(9) {
+  left: 70%;
+  animation-delay: 5s;
+}
+
+.snowflake:nth-child(10) {
+  left: 20%;
+  animation-delay: 5.5s;
+}
+
+.snowflake:nth-child(11) {
+  left: 25%;
+  animation-delay: 1s;
+}
+
+.snowflake:nth-child(12) {
+  left: 85%;
+  animation-delay: 1.5s;
+}
+
+.snowflake:nth-child(13) {
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.snowflake:nth-child(14) {
+  left: 65%;
+  animation-delay: 2.5s;
+}
+
+.snowflake:nth-child(15) {
+  left: 25%;
+  animation-delay: 3s;
+}
+
+.snowflake:nth-child(16) {
+  left: 95%;
+  animation-delay: 3.5s;
+}
+
+.snowflake:nth-child(17) {
+  left: 55%;
+  animation-delay: 4s;
+}
+
+.snowflake:nth-child(18) {
+  left: 10%;
+  animation-delay: 4.5s;
+}
+
+.snowflake:nth-child(19) {
+  left: 70%;
+  animation-delay: 5s;
+}
+
+.snowflake:nth-child(20) {
+  left: 20%;
+  animation-delay: 5.5s;
+}
+
+@keyframes snow {
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes wind {
+  50% {
+    transform: translateX(120px);
+  }
+}
