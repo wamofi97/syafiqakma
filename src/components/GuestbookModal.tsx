@@ -90,7 +90,7 @@ const GuestbookModal: React.FC<GuestbookModalProps> = ({
 
   return (
     <div
-      className={`primary-text absolute ${isOpen && "z-30"} inset-0 mx-auto flex w-full flex-col items-center justify-center bg-black/40 px-2`}
+      className={`primary-text fixed ${isOpen && "z-30"} inset-0 mx-auto flex w-full flex-col items-center justify-center bg-black/40 px-2`}
     >
       <div
         ref={modalRef}
