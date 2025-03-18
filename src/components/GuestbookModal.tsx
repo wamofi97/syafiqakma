@@ -90,17 +90,17 @@ const GuestbookModal: React.FC<GuestbookModalProps> = ({
 
   return (
     <div
-      className={`primary-text fixed border ${isOpen && "z-30"} inset-0 mx-auto flex w-full min-w-[250px] flex-col items-center justify-center bg-black/40 px-2`}
+      className={`primary-text absolute ${isOpen && "z-30"} inset-0 mx-auto flex w-full flex-col items-center justify-center bg-black/40 px-2`}
     >
       <div
         ref={modalRef}
-        className="relative w-full max-w-md rounded-lg bg-slate-50 p-6 shadow-lg"
+        className="relative w-full max-w-md rounded-lg border bg-slate-50 shadow-lg"
       >
         <div className="relative w-full rounded-lg p-6">
           <h5 className="mb-4 text-center text-2xl font-bold"> Ucapan</h5>
           <button
             onClick={onClose}
-            className="absolute top-0 right-0 m-2 cursor-pointer text-3xl transition-colors duration-300 hover:text-[#d17b7b]"
+            className="absolute top-0 right-0 m-2 cursor-pointer text-3xl transition-colors duration-300 hover:text-[var(--primary)]/80"
           >
             <IoClose />
           </button>
