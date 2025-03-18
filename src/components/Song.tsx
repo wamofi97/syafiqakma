@@ -30,7 +30,7 @@ const Song = () => {
     // style={{ height: "1vh", maxWidth: "700px" }}
     >
       {/* <div className="absolute right-0 bottom-0 p-2 sm:p-4"> */}
-      <audio ref={audioRef} loop>
+      <audio ref={audioRef} loop autoPlay>
         <source src="/wedding-song.mp3" type="audio/mpeg" />
       </audio>
       <button
