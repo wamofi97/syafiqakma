@@ -16,7 +16,7 @@ const Contact = () => {
     >
       <Title title="Hubungi" />
       <p className="secondary-text">Bagi sebarang pertanyaan, sila hubungi</p>
-      <div className="my-8 flex w-full flex-col items-center gap-4 px-4 font-semibold">
+      <div className="my-8 flex w-full flex-col items-center gap-4 font-semibold">
         <div className="flex w-full items-center">
           <p className="w-3/5 text-start">Rizaman</p>
           <div className="flex w-2/5 justify-end gap-6">
