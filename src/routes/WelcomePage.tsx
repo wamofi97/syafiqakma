@@ -21,17 +21,6 @@ const WelcomePage = ({
 
   return (
     <div className="relative mx-auto flex min-h-svh max-w-[700px] flex-col items-center justify-center overflow-hidden bg-[url('/background.webp')] bg-cover p-12 text-center">
-      {/* <div className="absolute h-full w-full"></div> */}
-      {/* <img
-        className="absolute -left-2 z-10 w-32 opacity-80"
-        src="/floral-left.png"
-        alt="floralleft"
-      />
-      <img
-        className="absolute -right-2 z-10 w-32 opacity-80"
-        src="/floral-right.png"
-        alt="floralright"
-      /> */}
       <div className="primary-text relative flex w-full flex-col items-center justify-center rounded-xl bg-white py-10 text-center">
         <div className="w-full"></div>
         <img
